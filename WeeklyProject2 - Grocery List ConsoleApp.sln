@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeeklyProject2 - Grocery List ConsoleApp", "WeeklyProject2 - Grocery List ConsoleApp\WeeklyProject2 - Grocery List ConsoleApp.csproj", "{9E2D558F-BFD9-4E09-A712-611C159F48F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E2D558F-BFD9-4E09-A712-611C159F48F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2D558F-BFD9-4E09-A712-611C159F48F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2D558F-BFD9-4E09-A712-611C159F48F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2D558F-BFD9-4E09-A712-611C159F48F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {777FA9A3-6094-43A8-8663-DC2FD863B8C8}
+	EndGlobalSection
+EndGlobal
