@@ -6,6 +6,8 @@ using System.Xml.Linq;
 
 CultureInfo culture = CultureInfo.InvariantCulture; //CultureInfo for the program
 
+
+// Generic list added with some products for debugging
 var products = new List<GroceryList>
 {
    new ("Fruit", "Apples", 12),
@@ -64,13 +66,15 @@ static void Menu()
     Console.ResetColor();
 }
 
+//Exit procedure 
 static void Exit(List<GroceryList> products)
 {
     ListAllProducts(products);
     Environment.Exit(0);
 }
 
-static void MenuHeader()
+//List header for the products
+static void ListHeader()
 {
     MenuBreak();
     Console.ForegroundColor = ConsoleColor.DarkGreen;
@@ -175,7 +179,7 @@ static void SearchProduct(List<GroceryList> products)
     List<GroceryList> remainingProducts = products.Except(foundProducts).ToList();
 
     MenuBreak();
-    MenuHeader();
+    ListHeader();
 
     foreach (var product in foundProducts)
     {
@@ -206,7 +210,7 @@ static void SearchProduct(List<GroceryList> products)
 //Function 3. QUIT & List all products function by ascending order upon quitting and summarize the total cost
 static void ListAllProducts(List<GroceryList> products)
 {
-    MenuHeader();
+    ListHeader();
     products = products.OrderBy(product => product.Price).ToList();
     foreach (var product in products)
     {
